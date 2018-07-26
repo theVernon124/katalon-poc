@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="60" tests="0" failures="1" errors="0">
+   <testsuite name="Smoke" tests="0" failures="1" errors="0" time="60" timestamp="2018-07-16 14:41:02" hostname="vernon.cenzon - vlam10170317" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180716_144059"/>
+         <property name="logFiles" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180716_144059/execution0.log"/>
+         <property name="attachments" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180716_144059/1531723320312.png"/>
+         <property name="hostName" value="vernon.cenzon - vlam10170317"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.43.65"/>
+         <property name="sessionId" value="bb9aef0f-eff1-0440-8954-aad83ad898e9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Valid Hotel Booking" classname="Test Cases/Valid Hotel Booking" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/HomePage/locationSearchSuggestion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/HomePage/locationSearchSuggestion' located by 'By.cssSelector: .select2-results > li > div:contains(&quot;Location&quot;) + ul > li > div:contains(&quot;Singapore&quot;)' not found)"/>
+         <system-out><![CDATA[2018-07-16 14:41:03 - [TEST_CASE][FAILED] - Test Cases/Valid Hotel Booking: Test Cases/Valid Hotel Booking FAILED because (of) Unable to click on object 'Object Repository/HomePage/locationSearchSuggestion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/HomePage/locationSearchSuggestion' located by 'By.cssSelector: .select2-results > li > div:contains("Location") + ul > li > div:contains("Singapore")' not found)
+
+2018-07-16 14:41:04 - [TEST_STEP][PASSED] - Statement - checkinDate = null: null
+
+2018-07-16 14:41:04 - [TEST_STEP][PASSED] - Statement - checkoutDate = null: null
+
+2018-07-16 14:41:04 - [TEST_STEP][PASSED] - Statement - use(groovy.time.TimeCategory, { -> ... }): null
+
+2018-07-16 14:41:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 14:41:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 14:41:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-16 14:41:24 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-16 14:41:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/locationField' is clicked on
+
+2018-07-16 14:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/locationField' is clicked on
+
+2018-07-16 14:41:25 - [TEST_STEP][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue: customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-16 14:41:25 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/locationTextArea' is visible
+
+2018-07-16 14:41:25 - [MESSAGE][PASSED] - Text 'Singapore' is set on object 'Object Repository/HomePage/locationTextArea'
+
+2018-07-16 14:41:25 - [MESSAGE][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-16 14:41:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/HomePage/locationSearchSuggestion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/HomePage/locationSearchSuggestion' located by 'By.cssSelector: .select2-results > li > div:contains("Location") + ul > li > div:contains("Singapore")' not found)
+
+2018-07-16 14:41:25 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-07-16 14:42:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/HomePage/locationSearchSuggestion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/HomePage/locationSearchSuggestion' located by 'By.cssSelector: .select2-results > li > div:contains("Location") + ul > li > div:contains("Singapore")' not found)
+[[ATTACHMENT|/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180716_144059/1531723320312.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-16 14:41:03 - [TEST_CASE][FAILED] - Test Cases/Valid Hotel Booking: Test Cases/Valid Hotel Booking FAILED because (of) Unable to click on object 'Object Repository/HomePage/locationSearchSuggestion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/HomePage/locationSearchSuggestion' located by 'By.cssSelector: .select2-results > li > div:contains("Location") + ul > li > div:contains("Singapore")' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-16 14:41:02 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Valid Hotel Booking FAILED because (of) Unable to click on object 'Object Repository/HomePage/locationSearchSuggestion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/HomePage/locationSearchSuggestion' located by 'By.cssSelector: .select2-results > li > div:contains("Location") + ul > li > div:contains("Singapore")' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-16 14:41:02 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Valid Hotel Booking FAILED because (of) Unable to click on object 'Object Repository/HomePage/locationSearchSuggestion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/HomePage/locationSearchSuggestion' located by 'By.cssSelector: .select2-results > li > div:contains("Location") + ul > li > div:contains("Singapore")' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke,Firefox 61.0,Smoke test suite,2018-07-16 14:41:02,2018-07-16 14:42:03,1m - 0.930s,FAILED
+,,,,,,
+Test Cases/Valid Hotel Booking,Firefox 61.0,,2018-07-16 14:41:03,2018-07-16 14:42:02,59.358s,FAILED
+Statement - checkinDate = null,Firefox 61.0,,2018-07-16 14:41:04,2018-07-16 14:41:04,0.003s,PASSED
+Statement - checkoutDate = null,Firefox 61.0,,2018-07-16 14:41:04,2018-07-16 14:41:04,0.001s,PASSED
+"Statement - use(groovy.time.TimeCategory, { -> ... })",Firefox 61.0,,2018-07-16 14:41:04,2018-07-16 14:41:05,0.047s,PASSED
+openBrowser,Firefox 61.0,,2018-07-16 14:41:05,2018-07-16 14:41:11,6.447s,PASSED
+navigateToUrl,Firefox 61.0,,2018-07-16 14:41:11,2018-07-16 14:41:24,12.737s,PASSED
+click,Firefox 61.0,,2018-07-16 14:41:24,2018-07-16 14:41:25,0.891s,PASSED
+customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue,Firefox 61.0,,2018-07-16 14:41:25,2018-07-16 14:41:25,0.632s,PASSED
+click,Firefox 61.0,,2018-07-16 14:41:25,2018-07-16 14:42:02,36.791s,FAILED

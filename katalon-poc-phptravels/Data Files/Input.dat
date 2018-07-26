@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Input</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>1acdf8f2-0a27-47ba-8e83-c81481abe075</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>email user%40phptravels.com</data>
+   <data>password demouser</data>
+   <data>demoFirstName Johny</data>
+   <data>demoLastName Smith</data>
+   <data>searchLocation Singapore</data>
+   <data>hotelName Rendezvous+Hotels</data>
+   <data>roomName Superior+Double</data>
+   <data>guestFirstName John</data>
+   <data>guestLastName Doe</data>
+   <data>guestEmail johndoetest%40test.com</data>
+   <data>guestMobileNumber 12345678</data>
+   <data>guestAddress 3924+Oakway+Lane%2C+Santa+Monica%2C+California</data>
+   <data>guestCountry United+States</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Key</name>
+      <size>13</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Value</name>
+      <size>13</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

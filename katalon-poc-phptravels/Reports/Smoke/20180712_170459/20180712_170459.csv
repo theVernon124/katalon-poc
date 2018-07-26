@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke,Firefox 61.0,Smoke test suite,2018-07-12 17:05:02,2018-07-12 17:05:20,18.296s,ERROR
+,,,,,,
+Test Cases/Valid login,Firefox 61.0,,2018-07-12 17:05:02,2018-07-12 17:05:19,17.129s,ERROR
+openBrowser,Firefox 61.0,,2018-07-12 17:05:03,2018-07-12 17:05:07,4.739s,PASSED
+navigateToUrl,Firefox 61.0,,2018-07-12 17:05:07,2018-07-12 17:05:16,8.835s,PASSED
+click,Firefox 61.0,,2018-07-12 17:05:16,2018-07-12 17:05:17,0.806s,PASSED
+click,Firefox 61.0,,2018-07-12 17:05:17,2018-07-12 17:05:19,2.276s,PASSED
+customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue,Firefox 61.0,,2018-07-12 17:05:19,2018-07-12 17:05:19,0.049s,PASSED

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sample Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8bab5d13-af3b-4a04-bf4b-f61b9ad796c8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 1)</defaultValue>
+      <description></description>
+      <id>dc056979-7f71-479e-91c7-a60210d43e86</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 2)</defaultValue>
+      <description></description>
+      <id>03909d9c-15b7-48e0-b4a1-8c58d21293b8</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 3)</defaultValue>
+      <description></description>
+      <id>77f855db-2c68-43a4-bc8f-046b8630b786</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 4)</defaultValue>
+      <description></description>
+      <id>5f13e5fb-2764-4c2c-96b4-da87ca0386d1</id>
+      <masked>false</masked>
+      <name>contactNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 5)</defaultValue>
+      <description></description>
+      <id>d43664c0-193a-4b8b-ac0a-69025425d19d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Spiels').getValue('Value', 1)</defaultValue>
+      <description></description>
+      <id>07a0eabe-f0ec-4fae-91de-458a8c81944e</id>
+      <masked>false</masked>
+      <name>greetingLabel</name>
+   </variable>
+</TestCaseEntity>

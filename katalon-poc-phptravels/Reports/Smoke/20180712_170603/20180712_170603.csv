@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke,Firefox 61.0,Smoke test suite,2018-07-12 17:06:05,2018-07-12 17:06:25,19.703s,ERROR
+,,,,,,
+Test Cases/Valid login,Firefox 61.0,,2018-07-12 17:06:06,2018-07-12 17:06:25,18.614s,ERROR
+openBrowser,Firefox 61.0,,2018-07-12 17:06:06,2018-07-12 17:06:12,5.537s,PASSED
+navigateToUrl,Firefox 61.0,,2018-07-12 17:06:12,2018-07-12 17:06:19,7.351s,PASSED
+click,Firefox 61.0,,2018-07-12 17:06:19,2018-07-12 17:06:20,0.666s,PASSED
+click,Firefox 61.0,,2018-07-12 17:06:20,2018-07-12 17:06:22,1.759s,PASSED
+customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue,Firefox 61.0,,2018-07-12 17:06:22,2018-07-12 17:06:23,1.706s,PASSED
+customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue,Firefox 61.0,,2018-07-12 17:06:23,2018-07-12 17:06:24,0.249s,PASSED
+waitForElementVisible,Firefox 61.0,,2018-07-12 17:06:24,2018-07-12 17:06:24,0.095s,PASSED
+click,Firefox 61.0,,2018-07-12 17:06:24,2018-07-12 17:06:24,0.299s,PASSED
+waitForElementNotPresent,Firefox 61.0,,2018-07-12 17:06:24,2018-07-12 17:06:24,0.217s,PASSED
+verifyElementVisible,Firefox 61.0,,2018-07-12 17:06:24,2018-07-12 17:06:24,0.171s,PASSED
+verifyElementText,Firefox 61.0,,2018-07-12 17:06:24,2018-07-12 17:06:25,0.046s,PASSED

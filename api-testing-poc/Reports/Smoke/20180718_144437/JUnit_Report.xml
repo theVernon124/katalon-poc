@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="2" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="2" timestamp="2018-07-18 14:44:40" hostname="vernon.cenzon - 10.100.216.131" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vernon.cenzon/Documents/katalon/api-testing-poc/Reports/Smoke/20180718_144437"/>
+         <property name="logFiles" value="/Users/vernon.cenzon/Documents/katalon/api-testing-poc/Reports/Smoke/20180718_144437/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vernon.cenzon - 10.100.216.131"/>
+         <property name="hostAddress" value="10.100.216.131"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Valid login" classname="Test Cases/Valid login" status="PASSED">
+         <system-out><![CDATA[2018-07-18 14:44:40 - [TEST_CASE][PASSED] - Test Cases/Valid login: Test Cases/Valid login
+
+2018-07-18 14:44:41 - [TEST_STEP][PASSED] - Statement - response = CustomKeywords.customKeywords.requestKeywords.postLogin(postLoginRequest, "qe.test.katalon1@mail.tackthis.net", "Test1234"): customKeywords.requestKeywords.postLogin is PASSED
+
+2018-07-18 14:44:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-07-18 14:44:43 - [MESSAGE][PASSED] - customKeywords.requestKeywords.postLogin is PASSED
+
+2018-07-18 14:44:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-07-18 14:44:43 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-18 14:44:40 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Valid login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

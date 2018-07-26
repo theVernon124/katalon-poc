@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>POC automation framework for PHPTravels test site via Katalon.</description>
+   <name>katalon-poc-phptravels</name>
+   <tag></tag>
+   <UUID>e633488f-e486-4f79-a9ab-da7499b693cf</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

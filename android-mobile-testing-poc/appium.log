@@ -1,0 +1,99 @@
+[Appium] Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 49830
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 49831
+[Appium]   tmpDir: /var/folders/br/3jx2whl94z10fj8xfrmd9n4sg0f7mb/T//Katalon/Appium/Temp1532396602416
+[Appium] Appium REST http interface listener started on 0.0.0.0:49830
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 23 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/vernon.cenzon/Downloads/MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/vernon.cenzon/Downloads/MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/vernon.cenzon/Downloads/MaterialLoginExample.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 7.1.1)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: emulator-5554
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 5576e54e-a7ce-45af-bb50-7e54005c742f
+[BaseDriver] Using local app '/Users/vernon.cenzon/Downloads/MaterialLoginExample.apk'
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/vernon.cenzon/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/vernon.cenzon/.katalon/tools/android_sdk/build-tools/28.0.1
+[ADB] Using adb from /Users/vernon.cenzon/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: emulator-5554
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/vernon.cenzon/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/vernon.cenzon/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/vernon.cenzon/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/vernon.cenzon/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/vernon.cenzon/.katalon/tools/android_sdk/build-tools/28.0.1/apkanalyzer. Do you have the Android SDK installed at '/Users/vernon.cenzon/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/vernon.cenzon/.katalon/tools/android_sdk/build-tools/28.0.1/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.sourcey.materialloginexample'
+[ADB] Main activity name: 'com.sourcey.materiallogindemo.LoginActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /Users/vernon.cenzon/.katalon/tools/android_sdk/build-tools/28.0.1/apksigner
+[ADB] Cannot read version codes of '/Users/vernon.cenzon/Documents/katalon/android-mobile-testing-poc/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/Users/vernon.cenzon/Documents/katalon/android-mobile-testing-poc/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Successfully extracted 39 strings from '/Users/vernon.cenzon/Downloads/MaterialLoginExample.apk' resources for '(default)' configuration
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/Users/vernon.cenzon/Documents/katalon/android-mobile-testing-poc/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/Users/vernon.cenzon/Documents/katalon/android-mobile-testing-poc/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s emulator-5554 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.sourcey.materialloginexample/com.sourcey.materiallogindemo.LoginActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 5576e54e-a7ce-45af-bb50-7e54005c742f added to master session list
+[HTTP] <-- POST /wd/hub/session 200 9416 ms - 1215
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 41 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/timeouts 400 53 ms - 5899
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 7c2a216e-63ba-44cd-a5aa-88af0449f48d with 5576e54e-a7ce-45af-bb50-7e54005c742f
+[HTTP] <-- GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/source 200 300 ms - 7245
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/screenshot 200 518 ms - 120442
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 7c2a216e-63ba-44cd-a5aa-88af0449f48d with 5576e54e-a7ce-45af-bb50-7e54005c742f
+[HTTP] <-- GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/source 200 54 ms - 12538
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f/screenshot 200 450 ms - 176594
+[HTTP] 
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 5576e54e-a7ce-45af-bb50-7e54005c742f from our master session list
+[HTTP] --> DELETE /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f
+[HTTP] {}
+[HTTP] <-- DELETE /wd/hub/session/5576e54e-a7ce-45af-bb50-7e54005c742f 404 33 ms - 9598
+[HTTP] 

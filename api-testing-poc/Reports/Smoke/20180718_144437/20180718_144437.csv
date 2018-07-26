@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke,,,2018-07-18 14:44:40,2018-07-18 14:44:43,2.884s,PASSED
+,,,,,,
+Test Cases/Valid login,,,2018-07-18 14:44:40,2018-07-18 14:44:43,2.141s,PASSED
+"Statement - response = CustomKeywords.customKeywords.requestKeywords.postLogin(postLoginRequest, ""qe.test.katalon1@mail.tackthis.net"", ""Test1234"")",,,2018-07-18 14:44:41,2018-07-18 14:44:43,1.567s,PASSED
+verifyResponseStatusCode,,,2018-07-18 14:44:43,2018-07-18 14:44:43,0.023s,PASSED

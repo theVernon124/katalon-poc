@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Valid merchant registration</name>
+   <tag>smoke, merchant-registration</tag>
+   <comment></comment>
+   <testCaseGuid>44f7db65-c0b1-4ecb-bc0f-78b89fd0a6b1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 2)</defaultValue>
+      <description></description>
+      <id>45f72dca-690a-4d77-a6af-4e2f5bd85180</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 4)</defaultValue>
+      <description></description>
+      <id>f1b65748-86c6-4df4-b211-e71197cf9404</id>
+      <masked>false</masked>
+      <name>countryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 5)</defaultValue>
+      <description></description>
+      <id>b892d397-b095-4b4d-9289-8a34468fef8f</id>
+      <masked>false</masked>
+      <name>subscriptionId</name>
+   </variable>
+</TestCaseEntity>

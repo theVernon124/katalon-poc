@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Smoke</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-07-18T14:44:37</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ce3e6122-ae8f-4923-afc8-23c2846e33cc</testSuiteGuid>
+   <testCaseLink>
+      <guid>68d4f27d-394c-493a-b72e-1d3988868a83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Valid login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a2830e33-8d61-4706-9db1-e15b8e6d087e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dc9e76d6-be12-48b1-b134-a13bec8a97a9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

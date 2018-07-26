@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with invalid email</name>
+   <tag>negative, login</tag>
+   <comment></comment>
+   <testCaseGuid>cd9ad2c3-e110-48ba-9e64-752c3aecf73b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 2)</defaultValue>
+      <description></description>
+      <id>e285474f-6818-4a2d-b401-b87cde194640</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Spiels').getValue('Value', 3)</defaultValue>
+      <description></description>
+      <id>7091171b-5dea-4847-8d73-dccccc359a1e</id>
+      <masked>false</masked>
+      <name>invalidCredentialsSpiel</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 3)</defaultValue>
+      <description></description>
+      <id>ef28be68-3857-42dd-a091-a57d9423b189</id>
+      <masked>false</masked>
+      <name>invalidEmail</name>
+   </variable>
+</TestCaseEntity>

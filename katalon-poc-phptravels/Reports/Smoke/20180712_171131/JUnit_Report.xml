@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="23" tests="0" failures="1" errors="0">
+   <testsuite name="Smoke" tests="0" failures="1" errors="0" time="23" timestamp="2018-07-12 17:11:33" hostname="vernon.cenzon - 10.100.216.73" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171131"/>
+         <property name="logFiles" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171131/execution0.log"/>
+         <property name="attachments" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171131/1531386715105.png, /Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171131/1531386715767.png"/>
+         <property name="hostName" value="vernon.cenzon - 10.100.216.73"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.100.216.73"/>
+         <property name="sessionId" value="9a905ce5-1be9-ad45-86d4-bbe19ba9f157"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Valid login" classname="Test Cases/Valid login" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/MyAccountPage/accountHeader' FAILED. (Root cause: Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.)"/>
+         <system-out><![CDATA[2018-07-12 17:11:34 - [TEST_CASE][FAILED] - Test Cases/Valid login: Test Cases/Valid login FAILED because (of) Verify element text of test object 'Object Repository/MyAccountPage/accountHeader' FAILED. (Root cause: Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.)
+
+2018-07-12 17:11:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 17:11:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 17:11:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 17:11:47 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 17:11:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 17:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 17:11:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 17:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 17:11:50 - [TEST_STEP][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue: customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameField' is visible
+
+2018-07-12 17:11:51 - [MESSAGE][PASSED] - Text 'user@phptravels.com' is set on object 'Object Repository/LoginPage/usernameField'
+
+2018-07-12 17:11:51 - [MESSAGE][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:11:51 - [TEST_STEP][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue: customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/passwordField' is visible
+
+2018-07-12 17:11:51 - [MESSAGE][PASSED] - Text 'demouser' is set on object 'Object Repository/LoginPage/passwordField'
+
+2018-07-12 17:11:51 - [MESSAGE][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:11:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/loginBtn' is visible
+
+2018-07-12 17:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 17:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/loginBtn' is visible
+
+2018-07-12 17:11:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/loginBtn' is clicked on
+
+2018-07-12 17:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginBtn' is clicked on
+
+2018-07-12 17:11:52 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/LoginPage/loginSpiel' located by 'By.xpath: //div[(text() = 'Redirecting Please Wait...' or . = 'Redirecting Please Wait...')]' is not present after '30' second(s)
+
+2018-07-12 17:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 17:11:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LoginPage/loginSpiel' located by 'By.xpath: //div[(text() = 'Redirecting Please Wait...' or . = 'Redirecting Please Wait...')]' is not present after '30' second(s)
+
+2018-07-12 17:11:52 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/MyAccountPage/accountHeader' is visible
+
+2018-07-12 17:11:54 - [MESSAGE][PASSED] - Object 'Object Repository/MyAccountPage/accountHeader' is visible
+
+2018-07-12 17:11:54 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/MyAccountPage/accountHeader' FAILED. (Root cause: Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.)
+
+2018-07-12 17:11:55 - [MESSAGE][FAILED] - Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.
+[[ATTACHMENT|/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171131/1531386715105.png]]
+
+2018-07-12 17:11:56 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/MyAccountPage/accountHeader' FAILED. (Root cause: Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.)
+[[ATTACHMENT|/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171131/1531386715767.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-12 17:11:34 - [TEST_CASE][FAILED] - Test Cases/Valid login: Test Cases/Valid login FAILED because (of) Verify element text of test object 'Object Repository/MyAccountPage/accountHeader' FAILED. (Root cause: Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 17:11:33 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Valid login FAILED because (of) Verify element text of test object 'Object Repository/MyAccountPage/accountHeader' FAILED. (Root cause: Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-07-12 17:11:33 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Valid login FAILED because (of) Verify element text of test object 'Object Repository/MyAccountPage/accountHeader' FAILED. (Root cause: Actual text 'Hi, Johny Smith' and expected text 'Hi, JohnySmith' of test object 'Object Repository/MyAccountPage/accountHeader' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="22" timestamp="2018-07-12 17:12:46" hostname="vernon.cenzon - 10.100.216.73" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171243"/>
+         <property name="logFiles" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_171243/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vernon.cenzon - 10.100.216.73"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.100.216.73"/>
+         <property name="sessionId" value="144ec1ce-abfb-b046-aa0d-79071e264a39"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Valid login" classname="Test Cases/Valid login" status="PASSED">
+         <system-out><![CDATA[2018-07-12 17:12:46 - [TEST_CASE][PASSED] - Test Cases/Valid login: Test Cases/Valid login
+
+2018-07-12 17:12:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 17:12:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 17:12:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 17:13:00 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 17:13:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 17:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 17:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 17:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 17:13:03 - [TEST_STEP][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue: customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameField' is visible
+
+2018-07-12 17:13:04 - [MESSAGE][PASSED] - Text 'user@phptravels.com' is set on object 'Object Repository/LoginPage/usernameField'
+
+2018-07-12 17:13:04 - [MESSAGE][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:13:04 - [TEST_STEP][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue: customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/passwordField' is visible
+
+2018-07-12 17:13:05 - [MESSAGE][PASSED] - Text 'demouser' is set on object 'Object Repository/LoginPage/passwordField'
+
+2018-07-12 17:13:05 - [MESSAGE][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue is PASSED
+
+2018-07-12 17:13:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/loginBtn' is visible
+
+2018-07-12 17:13:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 17:13:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/loginBtn' is visible
+
+2018-07-12 17:13:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/loginBtn' is clicked on
+
+2018-07-12 17:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/loginBtn' is clicked on
+
+2018-07-12 17:13:05 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/LoginPage/loginSpiel' located by 'By.xpath: //div[(text() = 'Redirecting Please Wait...' or . = 'Redirecting Please Wait...')]' is not present after '30' second(s)
+
+2018-07-12 17:13:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 17:13:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LoginPage/loginSpiel' located by 'By.xpath: //div[(text() = 'Redirecting Please Wait...' or . = 'Redirecting Please Wait...')]' is not present after '30' second(s)
+
+2018-07-12 17:13:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/MyAccountPage/accountHeader' is visible
+
+2018-07-12 17:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/MyAccountPage/accountHeader' is visible
+
+2018-07-12 17:13:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MyAccountPage/accountHeader' are matched.
+
+2018-07-12 17:13:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MyAccountPage/accountHeader' are matched.
+
+2018-07-12 17:13:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 17:13:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 17:12:46 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Valid login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

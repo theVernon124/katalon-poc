@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="18" tests="0" failures="0" errors="1">
+   <testsuite name="Smoke" tests="0" failures="0" errors="1" time="18" timestamp="2018-07-12 17:05:02" hostname="vernon.cenzon - 10.100.216.73" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_170459"/>
+         <property name="logFiles" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_170459/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vernon.cenzon - 10.100.216.73"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.100.216.73"/>
+         <property name="sessionId" value="6a194017-c29d-5a48-89f0-99f13e07d1c1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Valid login" classname="Test Cases/Valid login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Valid login FAILED because (of) java.lang.IllegalArgumentException: Invalid column name 'value' for test data '/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Data Files/Input.dat'. Possible values are '{Key,Value}'"/>
+         <system-out><![CDATA[2018-07-12 17:05:02 - [TEST_CASE][ERROR] - Test Cases/Valid login: Test Cases/Valid login FAILED because (of) java.lang.IllegalArgumentException: Invalid column name 'value' for test data '/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Data Files/Input.dat'. Possible values are '{Key,Value}'
+
+2018-07-12 17:05:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 17:05:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 17:05:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 17:05:16 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 17:05:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 17:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 17:05:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 17:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 17:05:19 - [TEST_STEP][PASSED] - customcommands.WaitVisibleAndSetValue.waitVisibleAndSetValue: Test data is internal data, reading internal data]]></system-out>
+         <system-err><![CDATA[2018-07-12 17:05:02 - [TEST_CASE][ERROR] - Test Cases/Valid login: Test Cases/Valid login FAILED because (of) java.lang.IllegalArgumentException: Invalid column name 'value' for test data '/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Data Files/Input.dat'. Possible values are '{Key,Value}']]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 17:05:02 - [TEST_SUITE][ERROR] - Smoke: Test Cases/Valid login FAILED because (of) java.lang.IllegalArgumentException: Invalid column name 'value' for test data '/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Data Files/Input.dat'. Possible values are '{Key,Value}']]></system-out>
+      <system-err><![CDATA[2018-07-12 17:05:02 - [TEST_SUITE][ERROR] - Smoke: Test Cases/Valid login FAILED because (of) java.lang.IllegalArgumentException: Invalid column name 'value' for test data '/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Data Files/Input.dat'. Possible values are '{Key,Value}']]></system-err>
+   </testsuite>
+</testsuites>

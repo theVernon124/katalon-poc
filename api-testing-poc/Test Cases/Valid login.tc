@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Valid login</name>
+   <tag>smoke, login</tag>
+   <comment></comment>
+   <testCaseGuid>2824b0c7-d8e5-4382-a975-05fbcb8e336d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 1)</defaultValue>
+      <description></description>
+      <id>a2830e33-8d61-4706-9db1-e15b8e6d087e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Input').getValue('Value', 2)</defaultValue>
+      <description></description>
+      <id>dc9e76d6-be12-48b1-b134-a13bec8a97a9</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

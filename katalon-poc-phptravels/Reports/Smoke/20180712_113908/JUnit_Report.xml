@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="17" tests="0" failures="1" errors="0">
+   <testsuite name="Smoke" tests="0" failures="1" errors="0" time="17" timestamp="2018-07-12 11:39:11" hostname="vernon.cenzon - 10.100.216.73" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_113908"/>
+         <property name="logFiles" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_113908/execution0.log"/>
+         <property name="attachments" value="/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_113908/1531366767770.png"/>
+         <property name="hostName" value="vernon.cenzon - 10.100.216.73"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.100.216.73"/>
+         <property name="sessionId" value="aefe58db-dda2-4b45-9097-70b4412ceafc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Valid login" classname="Test Cases/Valid login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user@phptravels.com' of object 'Object Repository/LoginPage/usernameField' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;input class=&quot;form-control padding-10&quot; name=&quot;username&quot; type=&quot;email&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VLAM10170317.local', ip: 'fe80:0:0:0:106f:8686:1cb3:6298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39754, moz:profile: /var/folders/br/3jx2whl94z1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aefe58db-dda2-4b45-9097-70b4412ceafc)"/>
+         <system-out><![CDATA[2018-07-12 11:39:11 - [TEST_CASE][FAILED] - Test Cases/Valid login: Test Cases/Valid login FAILED because (of) Unable to set text 'user@phptravels.com' of object 'Object Repository/LoginPage/usernameField' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="form-control padding-10" name="username" type="email"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VLAM10170317.local', ip: 'fe80:0:0:0:106f:8686:1cb3:6298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39754, moz:profile: /var/folders/br/3jx2whl94z1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aefe58db-dda2-4b45-9097-70b4412ceafc)
+
+2018-07-12 11:39:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 11:39:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 11:39:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 11:39:25 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/' successfully
+
+2018-07-12 11:39:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 11:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/myAccountMenu' is clicked on
+
+2018-07-12 11:39:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 11:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/loginSubmenu' is clicked on
+
+2018-07-12 11:39:27 - [TEST_STEP][FAILED] - setText: Unable to set text 'user@phptravels.com' of object 'Object Repository/LoginPage/usernameField' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="form-control padding-10" name="username" type="email"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VLAM10170317.local', ip: 'fe80:0:0:0:106f:8686:1cb3:6298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39754, moz:profile: /var/folders/br/3jx2whl94z1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aefe58db-dda2-4b45-9097-70b4412ceafc)
+
+2018-07-12 11:39:28 - [MESSAGE][FAILED] - Unable to set text 'user@phptravels.com' of object 'Object Repository/LoginPage/usernameField' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="form-control padding-10" name="username" type="email"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VLAM10170317.local', ip: 'fe80:0:0:0:106f:8686:1cb3:6298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39754, moz:profile: /var/folders/br/3jx2whl94z1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aefe58db-dda2-4b45-9097-70b4412ceafc)
+[[ATTACHMENT|/Users/vernon.cenzon/Documents/katalon/katalon-poc-phptravels/Reports/Smoke/20180712_113908/1531366767770.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-12 11:39:11 - [TEST_CASE][FAILED] - Test Cases/Valid login: Test Cases/Valid login FAILED because (of) Unable to set text 'user@phptravels.com' of object 'Object Repository/LoginPage/usernameField' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="form-control padding-10" name="username" type="email"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VLAM10170317.local', ip: 'fe80:0:0:0:106f:8686:1cb3:6298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39754, moz:profile: /var/folders/br/3jx2whl94z1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aefe58db-dda2-4b45-9097-70b4412ceafc)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 11:39:11 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Valid login FAILED because (of) Unable to set text 'user@phptravels.com' of object 'Object Repository/LoginPage/usernameField' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="form-control padding-10" name="username" type="email"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VLAM10170317.local', ip: 'fe80:0:0:0:106f:8686:1cb3:6298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39754, moz:profile: /var/folders/br/3jx2whl94z1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aefe58db-dda2-4b45-9097-70b4412ceafc)]]></system-out>
+      <system-err><![CDATA[2018-07-12 11:39:11 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Valid login FAILED because (of) Unable to set text 'user@phptravels.com' of object 'Object Repository/LoginPage/usernameField' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input class="form-control padding-10" name="username" type="email"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'VLAM10170317.local', ip: 'fe80:0:0:0:106f:8686:1cb3:6298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39754, moz:profile: /var/folders/br/3jx2whl94z1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aefe58db-dda2-4b45-9097-70b4412ceafc)]]></system-err>
+   </testsuite>
+</testsuites>
